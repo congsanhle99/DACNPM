@@ -11,7 +11,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Login</title>
+    <title>Đăng nhập</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Easy admin2 Panel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
@@ -78,7 +78,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
 
 
-                    <div class="new_people">
+                    @*<div class="new_people">
                         <h4>Login with FB</h4>
                         <p>
 
@@ -91,21 +91,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <tr><td>Last Name:</td><td><b>@TempData["lastname"]</b></td></tr>
                             <tr><td>Picture:</td><td><b><img src="@TempData["picture"]" /></b></td></tr>
                         </table>
-                    </div>
+                    </div>*@
 
 
                     <div class="new_people">
                         <h4>Chưa có tài khoản</h4>
-                        <p>
-
-                        </p>
+                        <br />
                         @Html.ActionLink("Đăng ký", "Index", "Register")
                     </div>
                     <div class="new_people">
                         <h4>Quên mật khẩu</h4>
-                        <p>
-
-                        </p>
+                        <br />
                         <a href="/LostPass/ForgetPassWord">Quên mật khẩu</a>
                     </div>
                 </div>
